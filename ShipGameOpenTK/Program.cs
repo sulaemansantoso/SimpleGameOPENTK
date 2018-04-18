@@ -14,7 +14,9 @@ namespace ShipGameOpenTK
         [STAThread]
         static void Main()
         {
-           
+           using (ShipGame game = new ShipGame()) {
+               game.Run(30.0f);
+           }
         }
     }
 }
