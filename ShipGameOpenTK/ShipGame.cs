@@ -10,6 +10,9 @@ namespace ShipGameOpenTK
     {
         public ShipGame() : base(){}
 
+        protected override void OnUpdateFrame(FrameEventArgs e){
+            
+        }
         protected override void OnRenderFrame(FrameEventArgs e){
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.ClearColor(Color.CornflowerBlue);
