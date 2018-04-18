@@ -15,6 +15,12 @@ namespace ShipGameOpenTK
             GL.ClearColor(Color.CornflowerBlue);
 
 
+            GL.Begin(PrimitiveType.Triangles);
+            GL.Vertex3(0,1,0);
+            GL.Vertex3(-1,-1,0);
+            GL.Vertex3(1,-1,0);
+            GL.End();
+
             SwapBuffers();
         }
 
