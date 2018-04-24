@@ -11,9 +11,9 @@ namespace ShipGameOpenTK
 {
     class ParticleManager
     {
-        List<Particle> pList;
-        Vector3 position;
-        Random r;
+        protected List<Particle> pList;
+        protected Vector3 position;
+        protected Random r;
 
         public ParticleManager()
         {
