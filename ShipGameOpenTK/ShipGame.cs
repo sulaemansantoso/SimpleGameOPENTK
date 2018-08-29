@@ -33,17 +33,38 @@ namespace ShipGameOpenTK
         protected override void OnUpdateFrame(FrameEventArgs e){
             s.ManageKeyEvent();
             pMan.updateGenerate();
-            
+            UpdateCam();
             pMan.update();
+            s.update();
         }
 
+        protected void UpdateCam()
+        {
+
+            KeyboardState kstate = Keyboard.GetState();
+            Vector3 Velocity = new Vector3(1, 0, 0) * 0.01f;
+            if (kstate.IsKeyDown(Key.D))
+            {
+                
+                    cam.Position += Velocity;
+                
+            }
+            if (kstate.IsKeyDown(Key.A))
+            {
+                
+                    cam.Position -= Velocity;
+               
+            }
+            
+        }
 
         protected override void OnRenderFrame(FrameEventArgs e){
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
             GL.ClearColor(Color.Black);
 
             s.draw(cam.getView());
-            this.Title = s.Position.ToString();
+            this.Title = s.bManager.Count.ToString() ;
+            //this.Title = s.Position.ToString();
             pMan.draw(cam.getView());
 
             SwapBuffers();

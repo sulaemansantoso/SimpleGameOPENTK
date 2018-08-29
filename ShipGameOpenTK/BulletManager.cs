@@ -8,10 +8,21 @@ namespace ShipGameOpenTK
 {
     class BulletManager : ParticleManager
     {
+        public int Count
+        {
+            get { return pList.Count; }
+        }
+
         public BulletManager() : base()
         {
-
+            pList = new List<Particle>();
         }
+
+        public void AddBullet(Bullet b)
+        {
+            this.pList.Add(b);
+        }
+
 
     }
 }

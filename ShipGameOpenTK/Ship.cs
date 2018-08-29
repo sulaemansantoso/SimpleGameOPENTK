@@ -9,11 +9,14 @@ namespace ShipGameOpenTK
 {
     class Ship : Actor
     {
+        public BulletManager bManager;
+        float bDelay = 5;
         public Ship()
         {
             Position = new Vector3(0,-1.5f, 0);
             Speed = 0.1f;
             Scale = 0.1f;
+            bManager = new BulletManager();
         }
 
         public override void draw(Matrix4 view)
@@ -33,6 +36,8 @@ namespace ShipGameOpenTK
             GL.Vertex3(-1, -1, 0);
             GL.Vertex3(1, -1, 0);
             GL.End();
+
+            bManager.draw(view);
         }
 
         public void ManageKeyEvent()
@@ -52,11 +57,29 @@ namespace ShipGameOpenTK
                     Position -= Velocity;
                 }
             }
+            if (kstate.IsKeyDown(Key.Space))
+            {
+                float bSpeed = 0.1f;
+                if (bDelay <0)
+                {
+                    bDelay = 0.5f;
+                    Bullet temp = new Bullet(this.Position, new Vector3(0, 1, 0), bSpeed);
+                    temp.Scale = 0.05f;
+                   
+                    bManager.AddBullet(temp);
+                }
+                else
+                {
+                   
+                }
+            }
+            bDelay -= 0.1f;
+            bManager.update();
         }
 
         public override void update()
         {
-
+            
 
         }
     }

@@ -8,3 +8,15 @@ C:\Users\Developer\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGa
 C:\Users\Developer\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.csproj.GenerateResource.Cache
 C:\Users\Developer\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.exe
 C:\Users\Developer\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.pdb
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\bin\Debug\ShipGameOpenTK.exe.config
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\bin\Debug\ShipGameOpenTK.exe
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\bin\Debug\ShipGameOpenTK.pdb
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\bin\Debug\OpenTK.dll
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\bin\Debug\OpenTK.xml
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.csprojAssemblyReference.cache
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.Properties.Resources.resources
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.csproj.GenerateResource.cache
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.csproj.CoreCompileInputs.cache
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.csproj.CopyComplete
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.exe
+C:\Users\master\Source\Repos\SimpleGameOPENTK\ShipGameOpenTK\obj\Debug\ShipGameOpenTK.pdb
